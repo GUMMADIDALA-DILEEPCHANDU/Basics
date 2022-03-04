@@ -1,0 +1,223 @@
+<!DOCTYPE HTML>
+ <html>
+ <head>
+ <title> My web technology</title>
+ <link href="style.css" rel="stylesheet">
+ </head>
+
+ <body>
+
+          <!--html :structure
+              css : presantation
+              js: behaviour
+              php sql :backend
+            -->
+
+          <!--paragraph-->
+         <P>HTML, in full hypertext markup language, a formatting system for displaying
+           material retrieved over the Internet.HTML markup tags specify document
+           elements such as headings, paragraphs,and tables.They mark up a document
+           for display by a computer program known as a Web browser.</P>
+
+         <br/> <br><br><br><br><br><!--breaking tages Next line-->
+
+         <!--Formatting elemnts-->
+         <P><b>HAI</b></P> <!--paragraph with bold-->
+         <P><big>HAI</big></P> <!--paragraph big -->
+         <P><i>HAI</i></P> <!--paragraph italic-->
+         <P><strong>HAI</strong></P> <!--paragraph with strong-->
+         <P><sub>HAI<sub/></P> <!--paragraph with small-->
+         <P><ins>HAI<ins/></P> <!--paragraph undershore-->
+         <P><del>HAI<del/></P> <!--paragraph stricken-->
+          <br/> <br><br><br><br><br>
+
+           <!--Heading tags-->
+           <h1>This is heading 1<h1/>
+           <h2>This is heading 2<h2/>
+           <h3>This is heading 3<h3/>
+           <h4>This is heading 4<h4/>
+           <h5>This is heading 5<h5/>
+             <br/> <br><br><br><br><br>
+
+            <!--Horizontal line-->
+            <hr/> <br/> <br><br><br><br><br>
+
+            <h1><span>About Me</span></h1>
+            <p class="quote">"Declare a variable not a war"</P>
+              <br/> <br><br><br><br><br>
+
+            <!--html attribute it means it just modify the tags-->
+            <p align="center">This is aligned at center</p>
+
+            <hr width="100px"/>
+            <hr width="50%"/>
+
+            <p align="center">Attribute<p/>
+            <hr width="100px" align="right"/>
+
+
+          <!--complete image size url adding and border-->
+            <img src="https://www.w3schools.com/images/w3schools_green.jpg"  height="100px" width="100px" alt="" broder="1px"/>
+            <br/>
+
+
+         <!--creating linking tag a tag-->
+            <a href="https://www.sololearn.com/home"> link<!--matter u want to display in
+              place of link --></a>
+              <br/>
+
+          <!--target attribute- when open link it should be open in which page--> m
+            <a href="https://www.sololearn.com/home" target="_blank"> sololearn<a/>
+             <br/> <br><br><br><br><br>
+
+          <!--order list -->
+          <ol>
+             <li>red</li>
+              <li>blue</li>
+            <li>green</li>
+          </ol>
+
+          <!--unorder list -->
+          <ul>
+             <li>red</li>
+              <li>blue</li>
+            <li>green</li>
+          </ul>
+             <br/> <br><br><br><br><br>
+
+
+          <!--creating tables with attribute if need-->
+          <table border="2">
+           <tr>
+             <td>red</td>
+             <td>blue</td>
+             <td>green</td>
+          </tr>
+          <tr>
+            <td><br/></td>
+            <td colspan="2"><br/></td><!--colspan means merge colume rowspan is
+              also there-->
+          </tr>
+        </table>
+         <br/> <br><br><br><br><br>
+
+
+          <table align="center" border="2">
+            <tr>
+              <td bgcolor="red" >red</td>
+              <td>blue</td>
+              <td>green</td>
+           </tr>
+
+           <tr>
+             <td>yellow</td>
+             <td colspan="2">pink</td>
+           </tr>
+         </table>
+          <br/> <br><br><br><br><br>
+
+           <!--block level elemnts start from new line
+           <h1>
+           <form>
+           <li>
+           <ol>
+           <un>
+           <p>
+           <table>
+           ****<div> use in css
+           -->
+
+           <!--inline elemts display with out line braek
+           <b>
+           <a>
+           <strong>
+           <img>
+           <em>
+           *****<span> use in css
+           <input>
+          -->
+
+          <!--div tag mostly used in web  single page we can divide the section -->
+          <h1>Headline</h1>
+          <div style="background-color:green; color:white;padding:10px;">
+              <p>The div tag defines a division or a section in an HTML document.
+              The div tag is used as a container for HTML elements - which is then
+            styled with CSS or manipulated with JavaScript. The div tag is easily
+            styled by using the class or id attribute. Any sort of content can be put
+            inside the div tag!
+            </P>
+          </div> <br/> <br><br><br><br><br>
+
+
+      <!--form-->
+      <form action="https://www.sololearn.com/home"><!--here action is a attribute-->
+      </form>
+
+
+        <form action="https://www.sololearn.com/home"  method="get"><!--data will be
+          visibe in page address-->
+        </form>
+
+
+      <form action="https://www.sololearn.com/home"  method="post"><!--updating data-->
+      </form>
+            <!--different type of buttons-->
+      <form>
+         <input type="text" name="username"  placeholder="username"/><br/><!--here
+           name is used in php or mysql name is mandatory place holder will help in
+           display-->
+        <input type="password" name="password" placeholder="password" /><br/>
+
+        <input type="radio" name="gender" value="male" /> Male<br/>
+        <input type="radio" name="gender" value="female" /> Female<br/>
+        <input type="submit" value="submit"/><br/>
+        </form> <!--here type is attribute--> <br/> <br><br><br><br><br>
+
+        <!--example-->
+        <h1><span> Contact Me</span></h1>
+        <form>
+        <input type="text" name="myname" placeholder="Name"/><br/>
+        <input type="email" name="email" placeholder="Email"/><br/>
+        <textarea name="message"></textarea><br/>
+        <input type="submit" value="submit"/><br/>
+      </form> <br/> <br><br><br><br><br>
+
+
+
+      <h2>
+        <font color="#679833">
+          white colour</font>
+      </h2>
+
+      <!--frame tag it not supported in html5-->
+      <frameset cols="100 ,25%, *#"></frameset>
+      <frameset rows="100 ,25%, *#"></frameset>
+
+      <div class="section">
+        <h1><span>My media</span></h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mU6anWqZJcc"
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+         allowfullscreen></iframe>
+      </div> <br/> <br><br><br><br><br>
+
+
+    <div class="wrapper">
+    <div class="one">One
+      <div class="grid-content-left"><k class="fa fa-pie-chart"></i></div>
+      <div class="grid-content-wrapperc"><h4>our love toward others support</h4><p>matter of kind external activities</p>
+    </div>
+  </div>
+    <div class="two">Two
+        <img src="https://www.w3schools.com/images/w3schools_green.jpg"/>
+    </div>
+    <div class="three">  <img src="https://www.w3schools.com/images/w3schools_green.jpg"/></div>
+    <div class="four">Four</div>
+    <div class="five">Five</div>
+    <div class="six">six</div>
+    </div>
+
+
+
+ </body>
+</html>
